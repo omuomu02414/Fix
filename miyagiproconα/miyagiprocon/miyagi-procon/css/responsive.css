@@ -129,6 +129,8 @@
             background: linear-gradient(to right,#fd654f, #fc664e, #fb6d45,#f8773d,#f38b29);
         } */
 
+
+        }
         .entry p {
             color: #ffffff;
             text-align: center;
@@ -276,9 +278,8 @@
             padding-left: 15px;
             font-size: 1.4rem;
         }
-            
-        
-    }
+      
+    
     @media only screen and (max-width: 1650px) and (min-width: 1600px) {
         a {
             text-decoration: none;
@@ -762,7 +763,7 @@
     }
     
     .infomation {
-        background-color: #f2f2f2;
+        /*background-color: #f2f2f2;*/
         padding: 5px 0;
     }
     
@@ -2315,12 +2316,21 @@
       }
       
       .entry a {
+        text-align: center;
+        font-size: 1.4rem;
+        color: #ffffff;
+        position: relative;
+        top:5px;
+        left: 3px;
+      }
+      
+      /*{
         padding-top: 30px;
         display: block;
         text-align: center;
         font-size: 1.4rem;
         color: #ffffff;
-    }
+    }*/
 
     .about{
         margin-top: 80%;
@@ -2655,12 +2665,13 @@
       
         /*info*/
             /*インフォメーション全体*/
-      .infomation {
+            
+      /*.infomation {
         margin-top: 55px;
         height: 780px;
       }
       
-      .infomation-wrapper {
+ .infomation-wrapper {
         display: block;
         margin-top: 50px;
       }
@@ -2675,14 +2686,32 @@
           height: 150px;
           position: relative;
           margin: 26px 0 10px 0;
-          }
+          }*/
       
-      .info-box {
+      .info-box  {
+        width: 625px;
+        height: 570px;
+        
+ 
+      }
+      .text-box {
+            display: none;
+      }
+      .image-box  {
+        width: 438px;
+        height: 279px;
+      }
+
+      .link_box {
+      position: relative;
+      right: 250px;
+      }
+      /* {
           width: 610px;
           height: 150px;
           position: relative;
           margin: 10px 0 19px 0;
-          }
+          }*/
       
       /*エントリ－開始・山形*/
         .info-img {

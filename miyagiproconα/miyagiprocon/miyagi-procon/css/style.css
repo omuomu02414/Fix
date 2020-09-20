@@ -243,22 +243,57 @@ section h2::after {
     right: 0;
     background: linear-gradient(to right,#fd654f, #fc664e, #fb6d45,#f8773d,#f38b29);
 }
-.big {
-    font-size: 2rem;
-}
+
 
 .entry a {
-    padding-top: 30px;
+    padding-top: 9px;
     display: block;
     text-align: center;
     font-size: 2rem;
     color: #ffffff;
+    
+
 }
 
-.entry p {
+
+.big-title {
+    font-size: 2rem;
+    
+}
+
+.year {
+    margin-right: 35px;
+    font-family: UDShinGoPro;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: 0.12px;
+    text-align: right;
+    
+}
+
+
+.period {
+    width: 189px;
+    height: 27px;
+    margin-left: 19px;
+    font-family: UDShinGoPro;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.69;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+/*.entry p {
     color: #ffffff;
     text-align: center;
-}
+}*/
 
 .top-news {
     height: 8rem;
@@ -389,10 +424,12 @@ section h2::after {
     padding: 0 0 8px 20px;
 }
 /*info*/
+
+
 .infomation {
-    height: 646px;
+    height: auto;
     padding-top: 55px;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
 }
 
 .infomation-box {
@@ -400,6 +437,184 @@ section h2::after {
     justify-content: center;
 }
 
+.info-box {
+    width: 900px;
+    height: 800px;
+    margin: 89px  auto 63px auto;
+    border: solid 3px #4dbef3;
+    /*background-color: #ffffff;*/
+}
+
+.image-box {
+    width: 630px;
+    height: 400px;
+    background-color: #c8c8c8;
+    margin: 39px auto 60px auto;
+  }
+
+
+
+/*デザイン変更分*/
+.section-tit1  {
+    height: 80px;
+    background-color:#159ad8;
+}
+
+.section-tit1 h1 {
+    padding-top: 10px;
+    color: #ffe401;
+}
+
+.section-tit2 {
+    height: 50px;
+    background-color: #dff9fb;
+}
+
+.section-tit2 p  {
+    padding-top: 15px;
+    font-family: UDShinGoPro;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #000000;
+  }
+
+.link_box {
+    margin-left: 27px;
+    margin-bottom: 42px;
+}
+
+
+
+
+.date_notice_box {
+    display: flex;
+    margin-top: 29px;
+    margin-left: 26px;
+    margin-bottom: 18px;
+    align-items: baseline;
+}
+
+.notice_date {
+    width: 92px;
+    height: 15px;
+    font-family: '源ノ角ゴシック';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: 0.18px;
+    text-align: center;
+    color: #4dbef3;
+  }
+
+.notice {
+    width: 80px;
+    height: 27px;
+    margin-left: 26px;
+    
+    background-color: #e26000;
+}
+
+.notice p  {
+    padding-top: 4px;
+    padding-left: 11px;
+    font-family: '源ノ角ゴシック';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+.notice_tit  {
+    font-family: '源ノ角ゴシックJP';
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #2c2c2c;
+    margin-left: 25px;
+  }
+
+.text-box {
+    width: 834px;
+    height: 58px;
+    margin: 34px 42px 0 24px;
+
+}    
+
+.text-box p  {
+    font-family: '源ノ角ゴシックJP';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: 0.18px;
+    text-align: left;
+    color: #2c2c2c;
+ 
+    
+  }    
+.info-box a {
+    display: block;
+    width: 142px;
+    height: 30px;
+    font-family: '源ノ角ゴシック';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #e36816;
+    border-bottom: 1px solid #e36816;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: '源ノ角ゴシック';
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #2c2c2c;
+  }
+
+.a {
+    margin-bottom: 8px;
+} 
+
+.b a{
+    display:inline-block;
+    
+}
+/*元デザイン*/
+/*
 .info-box_ {
     width: 280px;
     height: 300px;
@@ -416,18 +631,17 @@ section h2::after {
     border: solid 3px #4dbef3;
     background-color: #ffffff;
 }
-
 .info_box {
     width: 280px;
     height: 300px;
     margin: 34px 13px 34px 13px;
     border: solid 3px #4dbef3;
     background-color: #ffffff;
-}
+}*/
 
 /*info-box中身*/
 
-.info_img  {
+/*.info_img  {
     margin: 21px auto 16px auto;
     width: 240px;
     height: 134px;
@@ -447,20 +661,11 @@ section h2::after {
     margin: 21px auto 16px auto;
     width: 240px;
     height: 134px;
-  }
-.date {
-    font-family: '源ノ角ゴシック';
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.16px;
-    margin-left:22px;
-    color: #4dbef3;
-}
+  }*/
 
-.date_1 {
+
+
+/*.date_1 {
     font-family: '源ノ角ゴシック';
     font-size: 1.3rem;
     font-weight: normal;
@@ -470,10 +675,7 @@ section h2::after {
     letter-spacing: 0.16px;
     margin-left:22px;
     color: #4dbef3;
-}
-
-
-.comennt p {
+}/*.comennt p {
     font-family: '源ノ角ゴシック';
     font-size: 14px;
     font-weight: normal;
@@ -506,7 +708,8 @@ section h2::after {
     margin-left:22px;
     }
     
-.info-box a {
+*/
+/*.info_box a {
     width: 60px;
     height: 20px;
     font-family: '源ノ角ゴシック';
@@ -521,25 +724,7 @@ section h2::after {
     text-decoration: none;
     padding: 5px 6px 3px 7px;
     margin-left:22px;
-}
-
-
-.info_box a {
-    width: 60px;
-    height: 20px;
-    font-family: '源ノ角ゴシック';
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.12px;
-    color: #ffffff;
-    background-color: #e26000;
-    text-decoration: none;
-    padding: 5px 6px 3px 7px;
-    margin-left:22px;
-}
+}*/
 
 .read-more {
     width: 366px;
