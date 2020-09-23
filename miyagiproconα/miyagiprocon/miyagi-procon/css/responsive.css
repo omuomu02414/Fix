@@ -2319,9 +2319,11 @@
         text-align: center;
         font-size: 1.4rem;
         color: #ffffff;
+        padding-top:3px;
         position: relative;
         top:5px;
         left: 3px;
+    
       }
       
       /*{
@@ -2336,6 +2338,8 @@
         margin-top: 80%;
     }
 
+
+
       .big-title {
         position: absolute;
         left: 60px;
@@ -2347,6 +2351,10 @@
         right: 69px;
         bottom: 22px;
       
+      }
+
+      .year {
+          margin-left: 60px;
       }
         /*main-visu*/
       
@@ -2691,21 +2699,59 @@
       .info-box  {
         width: 625px;
         height: 570px;
-        
- 
       }
-      .text-box {
-            display: none;
-      }
+
+
       .image-box  {
         width: 438px;
         height: 279px;
       }
 
-      .link_box {
+/*テキストエリア*/
+    .text-box {
+        width: 589px;
+    }
+
+
+    .text-box p {
+        font-size: 15px;
+        overflow: hidden;
+    }
+
+      /*.link_box {
       position: relative;
       right: 250px;
+      }*/
+
+
+      .a {
+          width: 114px;
       }
+
+      .a a {
+        font-family: '源ノ角ゴシック';
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        text-align: left;
+        color: #e36816;
+      }
+
+      .b a {
+        font-family: '源ノ角ゴシック';
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        text-align: left;
+        color: #e36816;
+      }
+
       /* {
           width: 610px;
           height: 150px;
@@ -2714,7 +2760,7 @@
           }*/
       
       /*エントリ－開始・山形*/
-        .info-img {
+ /*       .info-img {
           width: 160px;
           height: 90px;
       
@@ -2736,11 +2782,7 @@
           padding: 5px 6px 8px 7px;
           }
       
-        .info-box a{
-          margin-left: 250px;
-          padding: 5px 6px 8px 7px;
-          }
-      
+
         .info-img img {
           width: 160px;
           height: 90px;
@@ -2773,9 +2815,9 @@
       }
       
       
-      
+     
       /*石巻*/
-      .info_box {
+       /*.info_box {
         width: 610px;
         height: 150px;
         position:relative;
@@ -2820,7 +2862,7 @@
         top: 16px;
         left: 52px;
       }
-      
+      */
       /*お知らせをもっと見る*/
       .more-read {
             width: 365px;

@@ -262,8 +262,8 @@ section h2::after {
 }
 
 .year {
-    margin-right: 35px;
-    font-family: UDShinGoPro;
+    margin-left: 75px;
+    font-family: 'a-otf-ud-shin-go-pr6n, sans-serif';
     font-size: 12px;
     font-weight: bold;
     font-stretch: normal;
@@ -278,8 +278,8 @@ section h2::after {
 .period {
     width: 189px;
     height: 27px;
-    margin-left: 19px;
-    font-family: UDShinGoPro;
+    margin-left: 10px;
+    font-family: 'a-otf-ud-shin-go-pr6n, sans-serif';
     font-size: 20px;
     letter-spacing: 0.2px;
     font-weight: bold;
@@ -290,7 +290,11 @@ section h2::after {
     color: #ffffff;
   }
   
-/*.entry p {
+span {
+    font-size: 30px;
+}
+
+  /*.entry p {
     color: #ffffff;
     text-align: center;
 }*/
@@ -483,11 +487,6 @@ section h2::after {
     color: #000000;
   }
 
-.link_box {
-    margin-left: 27px;
-    margin-bottom: 42px;
-}
-
 
 
 
@@ -548,12 +547,16 @@ section h2::after {
     margin-left: 25px;
   }
 
+.link_box {
+    margin-left: 27px;
+    margin-bottom: 42px;
+}
+
 .text-box {
     width: 834px;
-    height: 58px;
-    margin: 34px 42px 0 24px;
-
-}    
+    margin-top: 34px;
+    margin-left: 24px;
+}
 
 .text-box p  {
     font-family: '源ノ角ゴシックJP';
@@ -562,27 +565,26 @@ section h2::after {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.16;
-    letter-spacing: 0.18px;
+    letter-spacing: 0.01px;
     text-align: left;
-    color: #2c2c2c;
- 
-    
-  }    
-.info-box a {
+    color: #2c2c2c; 
+  }
+
+  .link_box a {
     display: block;
-    width: 142px;
-    height: 30px;
     font-family: '源ノ角ゴシック';
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: normal;
     letter-spacing: 0.2px;
     text-align: left;
     color: #e36816;
+    text-decoration: none;
     border-bottom: 1px solid #e36816;
-}
+   
+  }
 
 .image-box {
     display: flex;
@@ -606,8 +608,15 @@ section h2::after {
   }
 
 .a {
+    width: 142px;
+    height: 30px;
     margin-bottom: 8px;
 } 
+
+.b {
+    width: 122px;
+    height: 30px;
+}
 
 .b a{
     display:inline-block;
