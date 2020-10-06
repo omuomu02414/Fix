@@ -182,11 +182,10 @@
         } */
 
         .arrow {
-            width: 44px;
-            height: 64px;
-            position: absolute;
-            left: 550px;
-            bottom: -12px;
+            width: 31px;
+            height: 45px;
+            
+
           }
 
         .start-entry {
@@ -1049,12 +1048,7 @@
         margin-bottom: 50px;
         margin-top:20%;
     } */
-    
-    .infomation {
-        background-color: #f2f2f2;
-        /*padding: 5px 0;*/
-    }
-    
+
     .sponsors-wrapper {
         display: grid;
         grid-column-gap:26px;
@@ -1287,15 +1281,7 @@
         left: 80%;
     }
     
-    /* .about-text {
-        width:  720px;
-        height: 398.54px;
-        font-family: '源ノ角ゴシック JP';
-        font-weight: bold;
-        font-size: 1.6rem;
-        margin: 50px auto 0 auto;
-    }
-     */
+
     .about-logo {
         width: 10%;
         height: 40%;
@@ -1313,6 +1299,7 @@
     .application-requirements {
         width: 350px;
         height: 90px;
+        background-color: #ffffff;
         border:4.43px solid rgb(78, 191, 243);
         box-shadow: 10px 10px 0px 0 #159ad8;
     }
@@ -1328,6 +1315,7 @@
     .examination-flow {
         width: 350px;
         height: 90px;
+        background-color: #ffffff;
         margin-left: 29px;
         border:4.43px solid rgb(78, 191, 243);
         box-shadow: 10px 10px 0px 0 #159ad8;
@@ -2300,13 +2288,17 @@
         body{
           width: 640px;
         }
+
+      .header-top {
+          height: 100px;
+      }
       .top-icon {
         height: 98px;
       }
       
       .logo img {
           position: absolute;
-          top: -30px;
+          top: -20px;
           left: 50%;
           /*transform: translateX(-50%);*/
           -webkit-transform: translateX(30%);
@@ -2628,6 +2620,10 @@
         width: 621px;
         height: 91px;
       }
+      .infomationbox {
+          background-color: #ffffff;
+      }
+
       .infomationbox1 {
           margin-top: 33px;
       }
@@ -2654,6 +2650,7 @@
         position: absolute;
         top: 744px;
         left: 202px;
+        box-shadow: 5px 5px rgba(199, 206, 216, 1);
 
       }
 

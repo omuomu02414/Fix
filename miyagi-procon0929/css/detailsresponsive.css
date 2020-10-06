@@ -188,7 +188,7 @@
         
         
         .infomation {
-            background-color: #f2f2f2;
+            /*background-color: #f2f2f2;*/
             padding:0;
         }
         
@@ -2241,13 +2241,18 @@
         body{
           width: 640px;
         }
+
+        
+      .header-top {
+        height: 100px;
+    }
       .top-icon {
         height: 98px;
       }
       
       .logo img {
           position: absolute;
-          top: -30px;
+          top: -20px;
           left: 50%;
           /*transform: translateX(-50%);*/
           -webkit-transform: translateX(30%);
@@ -2676,9 +2681,7 @@
       
         /*スポンサー*/
       
-        .sponsor-logo {
-           margin-top: 50px;
-        }
+
         .sponsor-wrapper {
           margin: auto;
         }

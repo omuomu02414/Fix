@@ -456,14 +456,18 @@ span {
 }
 
 .start-entry {
+    height: 228px;
+    padding-top: 58px;
+    background-color: #f2f2f2f2;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    
 }
 
 .application-requirements {
     width: 430px;
     height: 105px;
+    background-color: #ffffff;
     border:4.43px solid rgb(78, 191, 243);
     box-shadow: 10px 10px 0px 0 #159ad8;
 }
@@ -483,6 +487,7 @@ span {
 .examination-flow {
     width: 430px;
     height: 105px;
+    background-color: #ffffff;
     margin-left: 29px;
     border:4.43px solid rgb(78, 191, 243);
     box-shadow: 10px 10px 0px 0 #159ad8;
@@ -520,15 +525,22 @@ span {
 }
 .outer {
     display: flex;
-    position: relative;
+    justify-content: space-between;
 }
+
 .arrow {
-
+    margin-right: 30px;
 }
 
-.mobile-arrow {
-    display: none;
+.arrow img{
+   width: 44px;
+   height: 64px;
+   
+   position: relative;
+   bottom: 40px;
 }
+
+
 .ibox {
     width: 900px;
     height: 132px;
@@ -541,7 +553,7 @@ span {
 }
 
 .infomationbox3 {
-    margin-bottom: 139px;
+    margin-bottom: 81px;
 }
 
 .date_notice_box {
@@ -612,6 +624,9 @@ span {
 }
 /*sponsor*/
 
+.sponsor-logo {
+    margin-top: 34px;
+}
 .logo2 img {
     width: 160px;
     height: 51px;
@@ -773,30 +788,25 @@ dt {
   }
 
   .collaboration {
-      width: 900px;
-      height: 85px;
-      margin: 0 auto ;
+    width: 900px;
+    height: 85px;
+    margin: 0 auto ;
 }
 
 .collaboration  dt {
-    margin-top: 15px;
-    padding-top: 0;
+  margin-top: 32px;
+  padding-top: 0;
 }
 
 .collaboration dd {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 .collaboration_img img {
-  width: 98px;
-  height: 34px;
+width: 98px;
+height: 34px;
+margin-top: 25px;
+margin-bottom: 26px;
 }
-
-.itnav-img{
-    width: 140px;
-    height: 51px;
-    object-fit: fill;
-}
-
 /*フッター最下部*/
 
 .contact {

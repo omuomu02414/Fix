@@ -348,17 +348,6 @@ span {
     display: none;
 }
 
-/* .about-text::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -654px;
-    width: 800px;
-
-
-    background-size: contain;
-    background-position: right;
-} */
 
 .about-img{
     position: absolute;
@@ -713,7 +702,9 @@ span {
 }
 
 
-
+.sponsor-logo {
+    margin-top: 34px;
+}
 
 .sponsor-box {
     width: 420px;
@@ -869,26 +860,27 @@ dt {
     margin: 21px 440px 21px 0;
   }
 
-  .collaboration {
-      width: 900px;
-      height: 85px;
-      margin: 0 auto ;
+.collaboration {
+    width: 900px;
+    height: 85px;
+    margin: 0 auto ;
 }
 
 .collaboration  dt {
-    margin-top: 15px;
-    padding-top: 0;
+  margin-top: 32px;
+  padding-top: 0;
 }
 
 .collaboration dd {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 .collaboration_img img {
-  width: 98px;
-  height: 34px;
+width: 98px;
+height: 34px;
+margin-top: 25px;
+margin-bottom: 26px;
 }
-
-.itnav-img{
+.itnav-img img{
     width: 140px;
     height: 51px;
     object-fit: fill;

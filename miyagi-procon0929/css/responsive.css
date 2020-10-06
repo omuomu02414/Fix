@@ -2300,7 +2300,7 @@
       
       .logo img {
           position: absolute;
-          top: -30px;
+          top: -20px;
           left: 50%;
           /*transform: translateX(-50%);*/
           -webkit-transform: translateX(30%);
@@ -2313,6 +2313,8 @@
         left: 401px;
         z-index: 300;
         width: 240px;
+        box-shadow: 0 8px rgba(199, 206, 216, 1);
+}
       }
       
       .entry a {
@@ -2322,7 +2324,7 @@
         padding-top:3px;
         position: relative;
         top:5px;
-        left: 15px;
+        left: 1px;
     
       }
       
@@ -2979,6 +2981,11 @@
             width: 100%;
         }
 
+       .collaboration_img img {
+        width: 98px;
+        height: 34px;
+
+       }
 
         }
     
